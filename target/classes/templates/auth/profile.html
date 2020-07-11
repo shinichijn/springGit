@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{layouts/main_layout :: head(title = 'Springit - Account Profile Page')}">
+</head>
+<body>
+
+<nav th:replace="~{layouts/main_layout :: nav}"></nav>
+
+
+
+<!-- profile -->
+<div id="profile" class="container pts">
+
+
+    <div class="row">
+
+        <div class="col-12">
+            <h3 class="card-title recentLinks pt-3">Recent Projects </h3>
+            <div class="col-12">
+
+
+    </div>
+
+    <div class="row">
+
+        <div class="col-8">
+            <div class="row">
+                <div class="card col-12" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">IOS & ANDROID APP <span class = "float-right"> <a href="#" type="button" class="  card-link btn btn-primary btn-lg">Company Project</a></span></h5>
+                        <h6 class="card-subtitle mb-2 text-muted">submitted 7 days ago by Chris Nie</h6>
+                        <p class="card-text">Developing native mobile real time tracking and photos taken/uploading apps by mainly Swift and Kotlin along with Object C, Java and third party libaries.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="card col-12" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">AWS CLOUD API<span class = "float-right"> <a href="#" type="button" class=" card-link btn btn-primary btn-lg">Company Project</a></span></h5>
+                        <h6 class="card-subtitle mb-2 text-muted">submitted 7 days ago by Chris Nie</h6>
+                        <p class="card-text">Building cloud API by using AWS (Amazon web service) S3 as storage, dynamodb as database ,api gateway as rest API model and lambda function service as body of API.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="card col-12" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">WEB DEVELOPMENT<span class = "float-right"><a href="#" type="button" class=" card-link btn btn-primary btn-lg">Company Project</a></span></h5>
+                        <h6 class="card-subtitle mb-2 text-muted">submitted 7 days ago by Chris Nie</h6>
+                        <p class="card-text">Designing single page application SPA by VUE JS and VUEX connecting to mobile app backend for user maintain along with Java script, Jqurey , CSS and Html.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="card col-12" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">PERSONAL DEMO WEB REACT SIDE PROJECT<span class = "float-right"><a href="http://jingnie.herokuapp.com/resume" type="button" class=" card-link btn btn-primary btn-lg">Personal Project</a>
+                        <a href="https://github.com/shinichijn/SocalWebWithReact" type="button" class=" card-link btn btn-primary btn-lg">Github Project</a></span></h5>
+                        <h6 class="card-subtitle mb-2 text-muted">submitted 7 days ago by Chris Nie</h6>
+                        <p class="card-text">Building a demo singe page application with authentication and profile maintain features by using React JS , MongoDB , and node as back end , also know as MERN STACK.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="card col-12" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Animal Mobile App photo detection for Kid<span class = "float-right"><a href="https://github.com/shinichijn/SocalWebWithReact" type="button" class=" card-link btn btn-primary btn-lg">School Project</a></span></h5>
+                        <h6 class="card-subtitle mb-2 text-muted">submitted 7 days ago by Chris Nie</h6>
+                        <p class="card-text">A IOS Mobile app using flask web API to detect animal category from a photo. AI part from flask is built by python </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="card col-12" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Inventory rest web Api <span class = "float-right"><a href="http://inventoryapi-jingnie.herokuapp.com/" type="button" class=" card-link btn btn-primary btn-lg">Personal Project</a>
+                        <a href="https://github.com/shinichijn/SocalWebWithReact" type="button" class=" card-link btn btn-primary btn-lg">Github Project</a></span></h5>
+                        <h6 class="card-subtitle mb-2 text-muted">submitted 7 days ago by Chris Nie</h6>
+                        <p class="card-text">A demo for rest web API built by C# Dot net framework with JWT web token login feature. </p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="card col-12" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">My Dev Articles <span class = "float-right"> <a href="https://mydevarticles.web.app/articles" type="button" class=" card-link btn btn-primary btn-lg">Personal Project</a>
+                        <a href="https://github.com/shinichijn/mydevarticles" type="button" class=" card-link btn btn-primary btn-lg">Github Project</a></span></h5>
+                        <h6 class="card-subtitle mb-2 text-muted">submitted 7 days ago by Chris Nie</h6>
+                        <p class="card-text">A demo for articles blog website built from Angular framework and deploy on google firebase. </p>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <!-- Right Side -->
+        <div class="col-3 offset-1">
+            <div class="row">
+                <div class="card col-12">
+                    <img class="card-img-top" th:src="@{/images/profile_small.png}" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">
+
+                        </p>
+                        <a href="https://github.com/shinichijn?tab=repositories"><button type="button" class="btn btn-primary btn-lg btn-block">GitHub Reps</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="card col-12">
+                    <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                    <div class="card-body">
+                        <h5 class="card-title">My Information</h5>
+                        <p class="card-text">
+                            Mobile Developer for <br/> IOS & Android<br/>
+                            Full stack web developer<br/>
+                            Since: November 23, 2015<br/>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="card col-12">
+                    <h4 class="card-title recentLinks pt-3">Recent Interested</h4>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><a href="#">IOS Developer</a></li>
+                        <li class="list-group-item"><a href="#">Android Builder</a></li>
+                        <li class="list-group-item"><a href="#">Full Stack Dev</a></li>
+                        <li class="list-group-item"><a href="#">JavaScript Lib React,Angular,and Vue</a></li>
+                        <li class="list-group-item"><a href="#">AWS cloud services</a></li>
+                        <li class="list-group-item"><a href="#">Python Automation</a></li>
+                        <li class="list-group-item"><a href="#">Software c# and Java</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div> <!-- // row -->
+
+</div><!-- // profile -->
+
+</body>
+</html>
