@@ -50,7 +50,7 @@
                 const linkID = this.getAttribute("data-id");
                 const voteSum = document.getElementById('votecount-' + linkID);
                 const voteSumValue = voteSum.innerHTML;
-               fetch(`http://localhost:8080/vote/link/${linkID}/direction/${direction}/votecount/${voteSumValue}`)
+               fetch(`https://jingnie-spring.herokuapp.com/vote/link/${linkID}/direction/${direction}/votecount/${voteSumValue}`)
                     .then(function(response)
                     {
                         if (response.status == 403)
